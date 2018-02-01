@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .details {
+    position: relative;
+    width: 350px;
+    max-width: 100%;
+    padding-top: 50px;
+    .root_278fab43 {
+      div[role="presentation"] {
+        &:nth-of-type(1) {
+          left: 0;
+          width: 100%;
+          z-index: 10;
+        }
+      }
+    }
+    &-list {
+      height: 350px;
+      overflow: auto;
+    }
+  }
+
+  .scroll {
+    position: relative;
+    width: 350px;
+    margin-top: 50px;
+    &-text {
+      height: 350px;
+      overflow: auto;
+    }
+    .text {
+      margin: 0;
+    }
+    button {
+      position: absolute;
+      display: none;
+      right: 20px;
+      padding: 16px;
+      cursor: pointer;
+      &.btn-up {
+        top: 0;
+      }
+      &.btn-down {
+        bottom: 0;
+      }
+      &.active {
+        display: block;
+      }
+      .ms-IconExample {
+        font-size: 50px;
+        height: 50px;
+        width: 50px;
+        margin: 0 25px;
+      }
+    }
+  }
+  .selected-list {
+    .ms-List-cell {
+      padding: 10px 0;
+    }
+  }
+}

@@ -1,0 +1,3 @@
+export const GET_DETAILS_LIST_REQUEST = 'GET_ITEMS_REQUEST';
+export const LOAD_MORE = 'LOAD_MORE';
+export const GET_SELECTED_LIST = 'GET_SELECTED_LIST';
