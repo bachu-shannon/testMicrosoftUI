@@ -1,8 +1,8 @@
 # Version
-node v6.11.2
-npm 3.10.10
+node v8.9.4
+npm 5.6.0
 # Installation
 npm install
 # Run
-npm start
-port: 8080
+npm run start
+port: 9000
